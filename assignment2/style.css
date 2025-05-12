@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --grey: rgb(124, 123, 123);
+  --green: rgb(6, 172, 61);
+  --yellow: rgb(253, 218, 21);
+}
+
+body{
+  background: lightslategray;
+}
+
+.container{
+  background: lightslategray;
+}
+
+.container header{
+  background: white;
+  padding: 3rem 0 1.5rem 0;
+  margin-bottom: 1px;
+}
+.container header div{
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container header div h1{ 
+  margin-bottom: 2rem;
+}
+.container header div p{
+  margin-bottom: 1rem;
+  width: 48%;
+  line-height: 23px;
+  color: var(--grey);
+}
+.container header div p span{
+  color: var(--green);
+}
+
+section{
+  margin-top: 4px;
+  padding: 2rem 0 1rem 0;
+  border-top: 3px solid rgb(172, 168, 168);
+}
+section div{
+  background: white;
+  border-bottom: 3px solid rgb(172, 168, 168);
+  width: 73%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+section div h2{
+  background: var(--yellow);
+  width: fit-content;
+  padding: 0.75rem;
+  border-bottom: 2.5px solid goldenrod;
+  border-radius: 5px;
+  margin: -0.5rem 0 1rem -1.4rem;
+}
+section div p{
+  color: rgb(68, 67, 67);
+  line-height: 22px;
+  margin-bottom: 1rem;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+section div p a{
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  cursor: pointer;
+}
+
+
+
+
+
+@media (min-width:451px) and (max-width:850px){
+  .container header{
+    padding: 3rem  0.5rem 2rem 0.5rem ;
+  }
+  .container header div{
+    width: 95%;
+  }
+  .container header div h1{ 
+    margin-bottom: 1.3rem;
+  }
+  .container header div p{
+    margin-bottom: 0.7rem;
+    width: 85%;
+  }
+  
+  section{
+    margin-top: 0px;
+    padding: 2rem 0;
+  }
+  section div{
+    width: 100%;
+  }
+  section div h2{
+    width: 80%;
+    padding: 0.75rem 1rem;
+  }
+  section div p{
+    letter-spacing: 1.4px;
+    font-weight: 600;
+  }
+}
+
+
+@media (max-width:450px){
+  .container header{
+    padding: 3rem  0.5rem 2rem 0.5rem ;
+  }
+  .container header div{
+    width: 95%;
+  }
+  .container header div h1{ 
+    margin-bottom: 1.3rem;
+  }
+  .container header div p{
+    margin-bottom: 0.7rem;
+    width: 85%;
+  }
+  
+  section{
+    margin-top: 0px;
+    padding: 2rem 0 0rem 0;
+  }
+  section div{
+    width: 100%;
+  }
+  section div h2{
+    width: 80%;
+    padding: 0.75rem 1rem;
+  }
+  section div p{
+    letter-spacing: 1.4px;
+    font-weight: 600;
+  }
+}

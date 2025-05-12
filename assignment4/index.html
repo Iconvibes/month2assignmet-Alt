@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Individual login page</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <!-- left side  -->
+        <div class="left">
+          <img src="./images/logo.jpg" alt="logo" />
+          <h1>For Individuals</h1>
+          <p>
+            Start benefitting from the wellness experience. For companies
+            looking on increasing productivity, and improving organization
+            wellness.
+          </p>
+        </div>
+
+        <!-- right side with form -->
+        <div class="right">
+          <form action="#">
+            <!-- div for name -->
+            <div class="name-div">
+              <!-- first name -->
+              <div class="first-name">
+                <label for="firstName">First Name</label>
+                <input type="text" />
+              </div>
+
+              <!-- last name -->
+              <div class="last-name">
+                <label for="lastName">Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+
+            <!-- div for gender and dob -->
+            <div class="gender-dob">
+              <!-- gender -->
+              <div class="gender">
+                <label for="gender">Gender</label>
+                <select name="gender" id="">
+                  <option value="">Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+
+              <!-- date of birth -->
+              <div class="dob">
+                <label for="Date Of Birth">Date Of Birth</label>
+                <input type="date" />
+              </div>
+            </div>
+
+            <!-- div for weight and height -->
+            <div class="weight-height">
+              <!-- weight -->
+              <div class="weight">
+                <label for="weight">Weight [KG]</label>
+              <input type="text" placeholder="Enter Weight" />
+              </div>
+
+              <!-- height  -->
+             <div class="height">
+              <label for="height">Height</label>
+              <input type="text" placeholder="Enter Height Here" />
+             </div>
+            </div>
+
+            <!-- Activity level -->
+            <div class="activity">
+              <label for="activity">Activity Level</label>
+              <select name="" id="">
+                <option value="low">Low</option>
+                <option value="mid">Mid</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+
+            <!-- password -->
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="password" placeholder="Enter password" />
+            </div>
+
+            <!-- submit / register button -->
+            <button type="submit" class="btn">Register</button>
+          </form>
+
+          <h4 class="terms">
+            By clicking Register, you agree to our
+            <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+          </h4>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
