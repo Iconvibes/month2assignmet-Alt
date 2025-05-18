@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background: rgb(240, 238, 238);
+  background: rgb(216, 214, 214);
 }
 
 header{
@@ -40,13 +40,18 @@ header{
   border-radius: 5px;
 }
 
-/* main{
-
-} */
+main{
+  display: flex;
+  align-items: stretch;
+  width: 70%;
+  margin: 1.2rem auto;
+}
 
 .check{
   background: white;
-  margin-top: 2rem;
+  width: 70%;
+  
+  /* margin-top: 2rem; */
 }
 .check h1{
   text-shadow: 2px 1px 1px lightgray;
@@ -56,6 +61,7 @@ header{
 }
 .info{
   padding:1rem ;
+  margin-bottom: 1rem;
 }
 .info h2{
   font-weight: 600;
@@ -95,4 +101,156 @@ header{
 }
 .email input{
   width: 75%;
+}
+
+.payment{
+  padding:1rem ;
+  margin-bottom: 1rem;
+}
+.payment h2{
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+}
+.payment h2 span{
+  color: blue;
+  padding: 5px 15px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.mail label{
+ display: block;
+ font-weight: bold;
+ margin-bottom: 5px;
+}
+.mail input{
+  background: rgb(240, 237, 237);
+  border: none;
+  padding: 8px;
+  width: 70%;
+}
+.mail p{
+  color: gray;
+  font-weight: 600;
+  font-size: small;
+  margin-top: -23px;
+  margin-left:20rem;
+}
+
+button{
+  background: rgb(5, 202, 143);
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+.support{
+  color: rgb(100, 99, 99);
+  width: 50%;
+  margin: 10px auto;
+}
+.support span{
+  border: 1px solid blue;
+  padding: 2px 4px;
+  border-radius: 50%;
+  color: blue;
+}
+.support b{
+  color: rgb(88, 87, 87);
+}
+#stripe{
+  background: gray;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 4px;
+  margin: 10px auto;
+  color: whitesmoke;
+  font-size: 8px;
+  font-weight: 800;
+}
+#stripe span{
+  font-size: 11px;
+}
+
+.freelance{
+  width: 30%;
+  padding: 2rem;
+  background: rgb(21, 91, 219);
+  color: rgb(238, 233, 233);
+}
+.freelance-top{
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid rgb(173, 172, 172);
+}
+.freelance-top h3{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+#price{
+  display: flex;
+  gap: 5px;
+}
+#price p:nth-child(1){
+  font-size: 15px;
+  margin-top: 3px;
+}
+#price p:nth-child(2){
+  font-size: 35px;
+  font-weight: 100;
+}
+#price p:nth-child(3){
+  font-size: 13px;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+#auto{
+  font-size: 13px;
+  font-weight: 400;
+  width: 60%;
+}
+
+#list{
+  list-style: none;
+  font-size: 14px;
+  margin: 10px 0;
+}
+#list li{
+  margin-bottom: 9px;
+}
+#list li span {
+  border: 1px solid white;
+  padding: 2px;
+  border-radius: 50%;
+}
+.client{
+  margin: 20px 0;
+}
+.client a{
+  color: white;
+}
+.freelance-bottom{
+  margin-top: 25px;
+}
+.freelance-bottom p{
+  font-size: 15px;
+  width: 85%;
+  margin-bottom: 10px;
+}
+.freelance-bottom div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.freelance-bottom div img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
