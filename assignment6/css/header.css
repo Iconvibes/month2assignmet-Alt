@@ -1,7 +1,7 @@
 .navigation{
     display: flex;
-    justify-content: space-between;
-    width: 98%;
+    justify-content: space-around;
+    width: 90%;
     margin: 0 auto;
     padding: 2rem auto;
 }
@@ -57,6 +57,58 @@
 }
 .trial a:nth-child(2):hover{
     border: 1px solid var(--mainBlue);
+    background: whitesmoke;
+    color: var(--mainBlue);
+}
+
+.header-content{
+    padding-top: 3.5rem;
+}
+.header-text{
+    width: 70%;
+    margin: 0.5rem auto;
+}
+.header-text h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.header-text h1 span{
+    color: var(--mainBlue);
+    padding-bottom: 5px;
+    border-bottom: 10px solid;
+    line-height: 9rem;
+}
+.header-text p{
+    text-align: center;
+    width: 80%;
+    font-size: 25px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+.header-text div{
+    width: fit-content;
+    margin: 2rem auto;
+    display: flex;
+    gap: 3rem;
+}
+.header-text div a:nth-child(1){
+    color: var(--mainBlue);
+    font-weight: 900;
+    font-size: 25px;
+}
+.header-text div a:nth-child(1):hover{
+    color: blue;
+}
+.header-text div a:nth-child(2){
+    background: var(--mainBlue);
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+.header-text div a:nth-child(2):hover{
+    border: 3px solid var(--mainBlue);
     background: whitesmoke;
     color: var(--mainBlue);
 }
